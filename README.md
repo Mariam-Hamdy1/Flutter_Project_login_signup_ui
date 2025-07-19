@@ -21,7 +21,8 @@ This app serves as a UI prototype for a typical authentication flow found in man
 - The home screen is set to the `LoginScreen`.
 
 ```dart
-home: const LoginScreen(),
+home: const LoginScreen()
+
 2. login_screen.dart
 Displays the Login screen UI:
 
@@ -37,9 +38,7 @@ A prompt: "Don't have an account? Sign Up"
 
 The Sign Up link uses Navigator.push() to take the user to the SignUpScreen.
 
-dart
-Copy
-Edit
+
 Navigator.push(
   context,
   MaterialPageRoute(builder: (context) => const SignUpScreen()),
