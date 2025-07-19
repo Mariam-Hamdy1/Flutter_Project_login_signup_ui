@@ -20,8 +20,7 @@ This app serves as a UI prototype for a typical authentication flow found in man
 - It runs the `MyApp` widget which uses `MaterialApp` to set up the app's theme and home screen.
 - The home screen is set to the `LoginScreen`.
 
-```dart
-home: const LoginScreen()
+
 
 2. login_screen.dart
 Displays the Login screen UI:
